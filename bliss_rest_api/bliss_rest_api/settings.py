@@ -85,34 +85,23 @@ WSGI_APPLICATION = 'bliss_rest_api.wsgi.application'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
 # localdevelopment
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#         'NAME': 'bliss_application',
-# 		'USER': 'postgres',
-#         'PASSWORD': 'TheBusinessCompany@123',
-#         'HOST': 'localhost',
-#         'PORT': '5432',
-#     }
-# }
-
-# GOOGLE_CLIENT_ID = '407984448539-dmtf3l80ikef44lbu10f3470n90rk4fp.apps.googleusercontent.com'
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'ecom_bliss',
-		'USER': 'thebusinesscompany',
-        'PASSWORD': 'TheBusinessCompany@123',
+        'NAME': 'bliss_application',
+		'USER': 'postgres',
+        'PASSWORD': 'Veonica@9934',
         'HOST': 'localhost',
         'PORT': '5432',
     }
 }
 
+# GOOGLE_CLIENT_ID = '407984448539-dmtf3l80ikef44lbu10f3470n90rk4fp.apps.googleusercontent.com'
+
 #Email Setup
 #smtp settings
 EMAIL_HOST='smtp.gmail.com'
-EMAIL_HOST_USER ='veronica.j@thebusinesscompany.in'
+EMAIL_HOST_USER ='veronica.j@gmail.com'
 EMAIL_HOST_PASSWORD ='zghr nwuz rghd gwso'
 EMAIL_PORT=587
 EMAIL_USE_TLS=True
